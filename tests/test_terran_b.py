@@ -1,7 +1,7 @@
 import sys
 sys.path.append("/Users/sundychen/Documents/Programming/Python/StarCraftBattleProj")
 
-from StarCraftBattle.buildings.human_b import *
+from StarCraftBattle.buildings.terran_b import *
 
 def test_initialize_buildings():
 	# Test Command Center
@@ -142,7 +142,7 @@ def test_initialize_buildings():
 
 
 def start_tests():
-	print("Test Start")
+	print("====== Start Tesing Terran Building ======")
 	test_initialize_buildings()
 
 

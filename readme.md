@@ -1,8 +1,7 @@
-StarCraft Battle
-
+**StarCraft Battle**
 =================
 
-StarCraft Battle is a command-line battle game. It is designed to be a "Take Truns and Fight" game like Pokeman but filled with StarCraft characters. All the classic characters in StarCraft I could be find in this game with some add on abilities.
+StarCraft Battle is a command-line battle game. It is designed to be a "Take Truns and Fight" game like Pokeman but filled with StarCraft characters. All the classic characters in StarCraft II could be find in this game with some add on abilities.
 
 =================
 

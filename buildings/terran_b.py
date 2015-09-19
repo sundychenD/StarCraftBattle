@@ -1,10 +1,10 @@
 from StarCraftBattle.buildings.building import Building
-from StarCraftBattle.buildings.names import BuildingName
+from StarCraftBattle.buildings.names import TBuildingName
 
 class CommandCenter(Building):
 	
 	__info = {
-		"name" : BuildingName.command_center,
+		"name" : TBuildingName.command_center,
 		"hp" : 400,
 		"mineral_cost" : 400,
 		"time_cost" : 40
@@ -18,7 +18,7 @@ class CommandCenter(Building):
 class Bunker(Building):
 	
 	__info = {
-		"name" : BuildingName.bunker,
+		"name" : TBuildingName.bunker,
 		"hp" : 150,
 		"mineral_cost" : 150,
 		"time_cost" : 15
@@ -32,7 +32,7 @@ class Bunker(Building):
 class MissleTurret(Building):
 	
 	__info = {
-		"name" : BuildingName.missle_turret,
+		"name" : TBuildingName.missle_turret,
 		"hp" : 200,
 		"mineral_cost" : 200,
 		"time_cost" : 20
@@ -46,7 +46,7 @@ class MissleTurret(Building):
 class Barracks(Building):
 	
 	__info = {
-		"name" : BuildingName.barracks,
+		"name" : TBuildingName.barracks,
 		"hp" : 250,
 		"mineral_cost" : 250,
 		"time_cost" : 25
@@ -60,7 +60,7 @@ class Barracks(Building):
 class Starport(Building):
 	
 	__info = {
-		"name" : BuildingName.starport,
+		"name" : TBuildingName.starport,
 		"hp" : 250,
 		"mineral_cost" : 250,
 		"time_cost" : 25
@@ -74,7 +74,7 @@ class Starport(Building):
 class Factory(Building):
 	
 	__info = {
-		"name" : BuildingName.factory,
+		"name" : TBuildingName.factory,
 		"hp" : 250,
 		"mineral_cost" : 250,
 		"time_cost" : 25
@@ -88,7 +88,7 @@ class Factory(Building):
 class SupplyDepot(Building):
 	
 	__info = {
-		"name" : BuildingName.supply_depot,
+		"name" : TBuildingName.supply_depot,
 		"hp" : 100,
 		"mineral_cost" : 100,
 		"time_cost" : 10
@@ -101,7 +101,7 @@ class SupplyDepot(Building):
 class Armory(Building):
 	
 	__info = {
-		"name" : BuildingName.armory,
+		"name" : TBuildingName.armory,
 		"hp" : 250,
 		"mineral_cost" : 250,
 		"time_cost" : 25
