@@ -1,5 +1,6 @@
 from StarCraftBattle.buildings.names import TBuildingName
 from StarCraftBattle.buildings.names import PBuildingName
+from StarCraftBattle.buildings.names import ZBuildingName
 
 class Building:
 
@@ -25,6 +26,17 @@ class Building:
 		PBuildingName.stargate: 0
 	}
 
+	__zerg_building_list = {
+		ZBuildingName.creep_colony: 0,
+		ZBuildingName.spawning_pool: 0,
+		ZBuildingName.hatchery: 0,
+		ZBuildingName.defiler_mound: 0,
+		ZBuildingName.sunken_colony: 0,
+		ZBuildingName.evolution_chamber: 0,
+		ZBuildingName.extractor: 0,
+		ZBuildingName.spire: 0
+	}
+
 	__t_count = 0
 	__p_count = 0
 	__z_count = 0
@@ -48,8 +60,6 @@ class Building:
 		elif name in ZBuildingName:
 			Building.__z_count += 1
 			Building.add_to_z_building_list(self, name)
-
-		# Increment 1 for in terran building list
 
 
 	def get_name(self):
@@ -84,10 +94,15 @@ class Building:
 		Building.__protoss_building_list[name] += 1
 
 
+	def add_to_z_building_list(self, name):
+		Building.__zerg_building_list[name] += 1
+
+
 	def print_total_count():
 		print("Terran building counts: " + str(Building.__t_count))
 		print("Protoss building counts: " + str(Building.__p_count))
 		print("Zerg building counts: " + str(Building.__z_count))
+
 
 	def print_status(self):
 		self.print_name()

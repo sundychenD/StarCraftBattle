@@ -12,6 +12,7 @@ class TBuildingName(Enum):
 	supply_depot = "Supply Depot"
 	armory = "Armory"
 
+
 class PBuildingName(Enum):
 
 	# Protoss Buidling Names
@@ -23,3 +24,16 @@ class PBuildingName(Enum):
 	twilight_council = "Twilight Council"
 	assimilator = "Assimilator"
 	stargate = "Stargate"
+
+
+class ZBuildingName(Enum):
+
+	# Zerg Buidling Names
+	creep_colony = "Creep Colony"
+	spawning_pool = "Spawning Pool"
+	hatchery = "Hatchery"
+	defiler_mound = "Defiler Mound"
+	sunken_colony = "Sunken Colony"
+	evolution_chamber = "Evolution Chamber"
+	extractor = "Extractor"
+	spire = "Spire"
